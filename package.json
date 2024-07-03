@@ -1,0 +1,17 @@
+{
+  "name": "samatbk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run": "pnpm exec eleventy",
+    "serve": "pnpm exec eleventy --serve",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/website/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@11ty/eleventy": "^2.0.1"
+  }
+}
