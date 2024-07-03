@@ -6,7 +6,7 @@
   "scripts": {
     "run": "pnpm exec eleventy",
     "serve": "pnpm exec eleventy --serve",
-    "build-ghpages": "npx @11ty/eleventy --pathprefix=/website/"
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/"
   },
   "keywords": [],
   "author": "",
