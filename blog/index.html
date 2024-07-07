@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blog</title>
+        <style>* {
+	font-family: "Arial, Helvetica, sans-serif";
+	background-color: #fbf1c7;
+	color: #3c3836;
+	margin: 0;
+	padding: 0;
+}
 
-<head>
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Blog</title>
-</head>
+html,
+body {
+	box-sizing: border-box;
+}
 
-<body>
+hr {
+	border: 1px dashed #cc241d;
+}
+
+nav {
+	padding: 5px 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#content {
+	margin: 20px;
+}</style>
+    </head>
+    <body>
+        <nav>
+
+	<strong>@samatbk</strong>
 	<div>
-	<a href="/">Home</a>
-	<a href="/blog">Blog</a>
-	<a href="#">/dev/null</a>
+		<a href="/">Home</a>
+		<a href="/blog">Blog</a>
+		<a href="#">/dev/null</a>
+	</div>
 
-</div>
+</nav>
 <hr>
-	
+        <div id="content">
+            
 <p>Blog Page</p>
 
 <ul><li>
@@ -22,6 +52,6 @@
 		<p>This is a test post</p>
 		<small>2024-07-05</small>
 	</li></ul>
-</body>
-
+        </div>
+    </body>
 </html>
