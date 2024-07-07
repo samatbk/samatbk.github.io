@@ -6,3 +6,11 @@ date: 2024-07-05
 # Hello world
 
 Lorem Ipsum Dolor Sit amet
+
+```json
+{
+  "firstName": "John",
+  "lastName": "Smith",
+  "age": 25
+}
+```
