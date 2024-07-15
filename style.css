@@ -25,3 +25,26 @@ nav {
 #content {
 	margin: 20px;
 }
+
+.blog-post {
+	padding: 10px;
+	border: 2px solid #cc241d;
+	border-radius: 5px;
+	margin: 10px 30px;
+	cursor: pointer;
+	position: relative;
+	/* background-color: red; */
+}
+
+.blog-post.a {
+	position: absolute;
+	height: 100%;
+}
+
+#links {
+	border: 1px solid #cc241d;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
+}

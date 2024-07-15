@@ -29,33 +29,59 @@ nav {
 
 #content {
 	margin: 20px;
+}
+
+.blog-post {
+	padding: 10px;
+	border: 2px solid #cc241d;
+	border-radius: 5px;
+	margin: 10px 30px;
+	cursor: pointer;
+	position: relative;
+	/* background-color: red; */
+}
+
+.blog-post.a {
+	position: absolute;
+	height: 100%;
+}
+
+#links {
+	border: 1px solid #cc241d;
+	display: inline-block;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 5px;
 }</style>
     </head>
     <body>
         <nav>
-
-	<strong>@samatbk</strong>
-	<div>
-		<a href="/">Home</a>
-		<a href="/blog">Blog</a>
-		<a href="#">/dev/null</a>
-	</div>
-
+    <strong>
+        <a href="http://github.com/samatbk">@samatbk</a>
+    </strong>
+    <div>
+        <a href="/">Home</a>
+        <a href="/blog">Blog</a>
+        <a href="https://youtu.be/dQw4w9WgXcQ">/dev/null</a>
+    </div>
 </nav>
 <hr>
         <div id="content">
             
-<p>Blog Page</p>
-
-<ul><li>
-		<a href="/blog/test-2/">Test Post 2</a>
-		<p>This is a test post</p>
-		<small>2024-07-05</small>
-	</li><li>
-		<a href="/blog/test-blog/">Test Post</a>
-		<p>This is a test post</p>
-		<small>2024-07-05</small>
-	</li></ul>
+<h2>Blog Page</h2>
+<ul><li class="blog-post">
+            <strong>
+                <a href="/blog/test-2/">Test Post 2</a>
+            </strong>
+            <p>This is a test post</p>
+            <small>2024-07-05</small>
+        </li><li class="blog-post">
+            <strong>
+                <a href="/blog/test-blog/">Test Post</a>
+            </strong>
+            <p>This is a test post</p>
+            <small>2024-07-05</small>
+        </li></ul>
         </div>
     </body>
 </html>
